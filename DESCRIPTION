@@ -1,0 +1,18 @@
+Package: DMCTDetectionMCSampling
+Title: Monte-Carlo Simulation to Compute Average Sensitivity, Specificity, and PPV of Lymphnoid-specific, Myeloid-Specific, and Non-Specific DMTs
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Amelia",
+           family = "Schroeder",
+           role = c("aut", "cre"),
+           email = "amesch@pennmedicine.upenn.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package compares the average sensitivity for specific and non-specific differentially methylated cell-types (DMCTs) for the proposed method, CellDMC. This Monte-Carlo simulation study is an extension of the MC study in 'A cell-type deconvolution meta-analysis of whole blood EWAS reveals lineage-specific smoking-associated DNA methylation changes'. Various sample sizes, case distribution parameters, and smoking effect sizes can be explored using this package. Additionally, three separate categories of DMCTs be evaluated with this package including: Lymphnoid-specific DMTs, Myeloid-specific DMTs, and non-specific DMCTs.
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: rmarkdown, knitr, readr, EpiDISH, car,
+        locfit, dplyr, kableExtra, doParallel, magrittr, stats, graphics, parallel, foreach
+
